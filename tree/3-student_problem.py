@@ -143,4 +143,5 @@ print("Height of the BST is " + str(tree.get_height())) # 5
 # checking right side
 tree.insert(85)
 tree.insert(90)
-print("Height of the BST is " + str(tree.get_height())) # 5
+tree.insert(99)
+print("Height of the BST is " + str(tree.get_height())) # 6
